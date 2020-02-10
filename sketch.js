@@ -37,6 +37,8 @@ function draw() {
   
   if(flute.isPlaying()){
     x+= frameCount * 0.01;
+  } else{
+    x = 0;
   }
   push();
   translate(width / 2, height / 2);
